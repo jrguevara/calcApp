@@ -13,7 +13,7 @@
     "make": "electron-forge make"
   },
   "keywords": [
-    "calculadora",
+    "calculadora-app",
     "JavaScipt",
     "electron",
     "UNIVO"

@@ -1,0 +1,36 @@
+{
+  "name": "calcapp",
+  "version": "1.0.0",
+  "productName": "calcApp",
+  "description": "calculadora JS en Electron",
+  "main": "main.js",
+  "scripts": {
+    "iniciar": "npx electronmon .",
+    "package-forge": "electron-forge package",
+    "package-builder": "electron-builder --win",
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "electron-forge start",
+    "make": "electron-forge make"
+  },
+  "keywords": [
+    "calculadora",
+    "JavaScipt",
+    "electron",
+    "UNIVO"
+  ],
+  "author": "Jaime Guevara",
+  "license": "MIT",
+  "dependencies": {
+    "electron-squirrel-startup": "^1.0.0",
+    "electronmon": "^2.0.2",
+    "npx": "^10.2.2"
+  },
+  "devDependencies": {
+    "@electron-forge/cli": "^6.0.1",
+    "@electron-forge/maker-deb": "^6.0.1",
+    "@electron-forge/maker-rpm": "^6.0.1",
+    "@electron-forge/maker-squirrel": "^6.0.1",
+    "@electron-forge/maker-zip": "^6.0.1",
+    "electron": "^21.2.3"
+  }
+}
